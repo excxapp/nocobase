@@ -142,6 +142,7 @@ const MenuEditor = (props) => {
   if (loading) {
     return <Spin />;
   }
+  // 使用schema进行顶部导航渲染
   return (
     <SchemaIdContext.Provider value={defaultSelectedUid}>
       <SchemaComponent memoized scope={{ useMenuProps, onSelect, sideMenuRef, defaultSelectedUid }} schema={schema} />
