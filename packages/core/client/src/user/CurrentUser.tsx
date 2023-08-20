@@ -104,7 +104,7 @@ export const SettingsMenu: React.FC<{
 
   useEffect(() => {
     const items = [
-      appVersion,
+      // appVersion,
       {
         key: 'divider_1',
         type: 'divider',

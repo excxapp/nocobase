@@ -46,6 +46,8 @@ export default defineConfig({
   //   esbuild: true // 不行，各种报错
   // },
   // 浏览器兼容性，兼容到 2018 年的浏览器
+  publicPath: "https://cos.xwwly.com/lxywork/",
+  // publicPath: "/lxywork/",
   targets: {
     chrome: 69,
     edge: 79,

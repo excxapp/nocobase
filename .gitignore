@@ -26,4 +26,9 @@ storage/duplicator/*
 **/.dumi/tmp-production
 packages/core/client/docs/contributing.md
 packages/core/app/client/src/.plugins
+<<<<<<< Updated upstream
 packages/plugins/lxywork
+=======
+packages/plugins/lxywork
+yarn.lock
+>>>>>>> Stashed changes

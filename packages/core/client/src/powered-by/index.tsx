@@ -7,8 +7,8 @@ export const PoweredBy = () => {
   const { i18n } = useTranslation();
   const { token } = useToken();
   const urls = {
-    'en-US': 'https://www.nocobase.com',
-    'zh-CN': 'https://cn.nocobase.com',
+    'en-US': 'http://www.lazyaiot.com',
+    'zh-CN': 'http://www.lazyaiot.com',
   };
   return (
     <div
@@ -23,7 +23,7 @@ export const PoweredBy = () => {
         }
       `}
     >
-      Powered by <a href={urls[i18n.language] || urls['en-US']}>NocoBase</a>
+      Powered by <a href={urls[i18n.language] || urls['en-US']}>小易-企微管家</a>
     </div>
   );
 };

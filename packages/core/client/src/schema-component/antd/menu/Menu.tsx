@@ -533,7 +533,8 @@ Menu.URL = observer(
         eventKey: schema.name,
         schema,
         onClick: () => {
-          window.open(props.href, '_blank');
+          location.href = props.href;
+          // window.open(props.href, '_blank');
         },
         label: (
           <SchemaContext.Provider value={schema}>
